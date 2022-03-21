@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define ENABLE_Pin GPIO_PIN_4
+#define ENABLE_GPIO_Port GPIOA
 #define LED_Pin GPIO_PIN_11
 #define LED_GPIO_Port GPIOB
 #define RS485_DIR_Pin GPIO_PIN_8
